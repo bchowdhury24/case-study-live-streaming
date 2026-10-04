@@ -69,7 +69,7 @@ Backend / solutions architecture across the platform:
 - Designing service boundaries, data models and API contracts.
 - Designing the transaction, caching and queueing strategy for the virtual economy.
 - Defining the observability, deployment and reconciliation tooling.
-- Integrating third-party systems (Agora, Firebase, Google Play, game providers).
+- Integrating third-party systems (Agora, Firebase, Google Play).
 
 ---
 
@@ -80,7 +80,7 @@ flowchart LR
     subgraph Clients
         A[📱 Mobile App]
         W[🌐 WebView / Admin]
-        G[🎮 Game Provider]
+        G[🎮 Other Provider]
     end
 
     subgraph Hivo["Hivo Backend (this repo)"]
@@ -117,7 +117,6 @@ flowchart LR
 | **💎 Economy** | Gifts (including lucky gifts with configurable return/reserve ratios), backpack, store, wallet, transaction history, Google Play purchases, agents |
 | **👥 Social** | Friends, groups, couples (CP), notifications, help center, ratings |
 | **🏆 Engagement** | Leaderboards (daily/monthly/lifetime), levels, VIP/SVIP, achievements, daily check-ins, explore, banners and ads |
-| **🎮 Games** | Third-party (Baishun) game callbacks and online games |
 | **🛠️ Platform** | Auth and refresh tokens, app-version gating, config service, uploads and image processing, logging, cache control |
 
 ---
