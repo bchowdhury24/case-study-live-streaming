@@ -363,14 +363,14 @@ If this platform were to scale another order of magnitude, the next architectura
 ├── ecosystem.config.js      # PM2 production config
 ├── appspec.yml              # AWS CodeDeploy spec
 ├── controllers/             # 50+ domain controllers (Broadcast, PK, Gifts, Wallet, ...)
-├── routes/                  # auth · web(api) · payment · game · public · webView
-├── middleware/              # app-version gate, user-id validation, logger
+├── routes/                  # auth · web(api)
+├── middleware/              # app-version gate, validation, logger
 ├── models/                  # Query maker, MySQL/Mongo models
-├── library/                 # Redis helpers, achievement engine, utilities
-├── queue/                   # giftQueue/Worker, rtmQueue/Worker
+├── library/                 # Redis helpers, engine, utilities
+├── queue/                   # giftQueue/Worker, rtmWorker
 ├── payment/                 # Purchase handling
-├── config/                  # Per-env config, achievement/VIP/lucky-gift tables
-├── scripts/                 # 38 ops scripts: syncs, audits, migrations
+├── config/                  # Per-env confi
+├── scripts/                 # ops scripts: syncs, audits, migrations
 ├── api_docs/                # Swagger docs
 └── views/ · themes/ · static/ · images/
 ```
