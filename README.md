@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎥 Hivo: Real-Time Live Streaming & Social Commerce Platform
+# 🎥 Real-Time Live Streaming & Social Commerce Platform
 
 ### Backend architecture, design decisions and engineering deep-dive
 
@@ -42,7 +42,7 @@
 
 ## 🧭 Executive Summary
 
-**Hivo** is the backend for a mobile live-streaming social app. Hosts broadcast live, viewers join and chat, and they support hosts with **virtual gifts** that have real monetary value. The platform has to handle:
+Hosts broadcast live, viewers join and chat, and they support hosts with **virtual gifts** that have real monetary value. The platform has to handle:
 
 - **High-fan-out real-time interaction:** live rooms, chat, PK battles and gift animations.
 - **A financial-grade virtual economy:** wallets, purchases, gifts and payouts where a double-spend or lost transaction is a business incident.
